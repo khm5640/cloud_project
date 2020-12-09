@@ -66,12 +66,12 @@
 	`// apt-get install gcc`
 
 #### 3. 코딩 테스트 정답 확인 프로그램 코드 작성
-#### - cloud_p.c
+#### - fileprogram.c
 
 ***
 ## D.	프로젝트 개발 결과물 소개 
 - 웹 사이트를 pc 또는 phone으로 접속가능하므로, 클라이언트는 ip 주소만 알면 문제를 확인 가능합니다. 
-- aws ec2 인스턴스는 private key로 연결이 가능하므로, github에 오픈소스로 .c파일을 올려줍니다. 클라이언트는 github주소를 통해 .c파일을 얻고, 각자 test 할 수 있습니다.
+- aws ec2 인스턴스는 private key로 연결이 가능하므로, github에 오픈소스로 .c파일을 올려줍니다. 클라이언트는 github주소를 통해 fileprogram.c파일을 얻고, 각자 test 할 수 있습니다.
 
 ### <다이어그램>
 
@@ -109,7 +109,7 @@
 	![alt text](ph3.jpg)
 	![alt text](ph4.jpg)
 
-1. 웹에 적힌 github주소를 통해 정답확인 프로그램 파일(cloud_p.c) 소스를 제공 받음 
+1. 웹에 적힌 github주소를 통해 정답확인 프로그램 파일(fileprogram.c) 소스를 제공 받음 
 
 	![alt text](github.jpg)
 
