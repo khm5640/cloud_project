@@ -40,7 +40,7 @@
 - docker container ls 
 
 	`// 컨테이너 상태 확인`
-![alt text](12345.PNG)
+
 
 - mkdir /home/sp~/workspace_docker/www/ 
 - index.html 작성
@@ -83,23 +83,29 @@
 1. 제공된 ip주소를 통해 웹에 접속
 - ip주소 : http://210.115.229.76:54323 <br>
 	- PC
-	<br>
+	
+	
 	![alt text](home.PNG)
 	![alt text](about.PNG)
 	
 	- PHONE
-	<br>
+	
+	
 	![alt text](ph1.jpg)
 	![alt text](ph2.jpg)
 
 1. 원하는 언어 / 난이도의 코딩 문제들을 확인 
 	- PC	
-	<br>
+	
+	
+	
 	![alt text](code.PNG)
 	![alt text](hard.PNG)
 
 	- PHONE
-	<br>
+	
+	
+	
 	![alt text](ph3.jpg)
 	![alt text](ph4.jpg)
 
@@ -110,7 +116,9 @@
 1. 프로그램 파일의 컴파일을 통해 각자 test를 진행
 	- 실행 result<br>
 	`-> 걸린시간 , 정답 / 오답 출력`
-	<br>
+	
+	
+	
 	![alt text](result.PNG)
 
 
