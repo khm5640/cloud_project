@@ -1,1 +1,97 @@
+<!DOCTYPE html>
 
+<html>
+<head>
+        <meta charset="utf-8" />
+        <title>Code Problems</title>
+
+        <style type="text/css">
+        input[id*="answer"] {
+                display:none;
+        }
+        input[id*="answer"] + label {
+                display:block;
+                padding:20px;
+                border:1px solid #232188;
+                border-bottom:0;
+                color:#fff;
+                font-weight:900;
+                background:#3634a5;
+                cursor:pointer;
+                }
+
+        input[id*="answer"] + label + div {
+         max-height:0;
+                transition: all .35s;
+                overflow: hidden;
+                background:#edf8ff;
+                font-size:11px;
+        }
+
+        input[id*="answer"] + label + div p {
+                display:inline-block;
+                padding:20px;
+        }
+
+        input[id*="answer"]:checked + label + div {
+                max-height:100px;
+        }
+
+        input[id*="answer"]:checked + label em {
+                background-position:0 -30px;
+        }
+ body{
+        background:#DCEEEF;
+        font-family:arial;
+        }
+
+        .b{
+        color: #3727CE;
+        }
+
+        </style>
+
+</head>
+
+<body>
+        <h2>Programing Test</h2>
+         <div class="b"><h3><i>[ Code Problems ]</i></h3></div>
+
+        <hr />
+
+        <div class="accordion">
+                <input type="radio" name="accordion" id="answer01">
+                <label for="answer01">C<em></em></label>
+                <div><nav><ul>
+                        <li><a href="http://210.115.229.76:54323/c_easy.html"><h3>c_easy</h3></a></li>
+                        <li><a href="http://210.115.229.76:54323/c_norm.html"><h3>c_normal</h3></a></li>
+                <li><a href="http://210.115.229.76:54323/c_hard.html"><h3>c_hard</h3></a></li>
+
+                </ul>
+                </nav>
+        </div>
+
+        <input type="radio" name="accordion" id="answer02">
+                <label for="answer02">JAVA<em></em></label>
+                <div><nav><ul>
+                        <li><a href="http://210.115.229.76:54323/java_easy.html"><h3>java_easy</h3></a></li>
+                        <li><a href="http://210.115.229.76:54323/j_norm.html"><h3>java_normal</h3></a></li>
+                        <li><a href="http://210.115.229.76:54323/j_hard.html"><h3>java_hard</h3></a></li>
+                </ul>
+                </nav>
+                </div>
+
+                <input type="radio" name="accordion" id="answer03">
+                <label for="answer03">PYTHON<em></em></label>
+	<div><nav><ul>
+                        <li><a href="http://210.115.229.76:54323/py_easy.html"><h3>python_easy</h3></a></li>
+                        <li><a href="http://210.115.229.76:54323/py_normal.html"><h3>python_normal</h3></a></li>
+                        <li><a href="http://210.115.229.76:54323/py_hard.html"><h3>python_hard</h3></a></li>
+        </ul>
+                </nav>
+                </div>
+
+ </div>
+
+</body>
+</html>
