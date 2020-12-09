@@ -1,1 +1,141 @@
 
+// c_easy.html
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>c_easy</title>
+
+        <style>
+        .g{
+         color: green;
+        }
+        </style>
+</head>
+<body>
+<pre>
+
+
+        <div class="g">Q. 입력을 반대로 출력해주는 프로그램입니다.
+                  빈칸에 공통되게 들어갈 숫자를 적으세요. </div>
+
+        int main()
+        {
+                 int num;
+                 printf("정수 입력 : ");
+                 scanf("%d", &num);
+                 while (num != 0)
+                {
+                  printf("%d", num %= (빈칸1));
+                  num /= (빈칸1);
+                 }
+
+        }
+
+</pre>
+</body>
+</html>
+
+//c_normal.html
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>c_normal</title>
+        <style>
+        .b{
+        color: blue;
+        }
+        </style>
+</head>
+<body>
+<pre>
+
+        <div class="b">Q. 이 프로그램의 실행 결과를 보고" "안의  빈칸에 들어갈 값을 적으세요.</div>
+
+        void main() {
+
+        unsigned char a = 0x75, b=0xd8, c=0xf0;
+
+         int i = 16, j = -16;
+
+         printf("a&b=...", a&b, a&b);
+         printf(" 빈칸1 \n" , a|c, a|c);
+         printf("a^b=...", a^b, a^b);
+         printf("~a=...", ~a, ~a);
+
+        }
+
+        [ 실행결과 :
+        a&b = 0x50 = 80
+        a|c = 0xf5  = 245
+        a^b = 0xad = 173
+        ~a = 0xffffff8a = -118 ]
+
+</pre>
+</body>
+</html>
+
+//c_hard.html
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>c_hard</title>
+        <style>
+        .r{
+        color: red;
+        }
+        </style>
+</head>
+<body>
+<pre>
+
+        <div class="r"> Q. 아래는  함수 포인터와 조건문을 이용한 계산프로그램입니다.
+        실행결과를  보고, printf문 " "안의 빈칸에 들어갈 식을 식을 적으세요. </div>
+
+        void add(int num1, int num2);
+        void subtract(int num1, int num2) ;
+        int main()
+        {
+         int x, z;
+         char c;
+         void(*pointer)(int, int);
+         printf("빈칸1 \n", add);
+         printf("...");
+         printf("입력 : ");
+         scanf("%d %c %d", &x, &c, &z);
+
+         if (c == '+')
+                pointer = add;
+         else if (c == '-')
+                pointer = subtract;
+         else
+                 printf("두 번째 연산자는 '+' 또는 '-'를 입력하세요. \n");
+                 pointer(x,z);
+                 system("pause");
+                 return 0;
+        }
+
+        void add(int num1, int num2)
+        {
+        int result;
+                result = num1 + num2;
+                printf("%d + %d = %d 입니다. \n", num1, num2, result);
+        }
+
+        void subtract(int num1, int num2)
+        {
+                ...
+        }
+
+
+        [ 실행결과  :
+         add 함수의 주소 : 6b86f88f
+         subtract함수의 주소 : 6b86f8c7
+         입력 : 1+2
+         1 + 2 = 3 입니다. ]
+
+</pre>
+</body>
+</html>
