@@ -1,1 +1,173 @@
+//j_easy.html
+<!DOCTYPE html>
 
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>java_easy</title>
+        <style>
+
+        .g {
+        color: green;
+        }
+
+        </style>
+</head>
+<body>
+<pre>
+
+        <div class="g">Q. 입력한 돈을 달러 단위로 변환시켜주는 프로그램이 있을 때,
+         빈칸에 들어갈 식을 입력하세요.</div>
+
+        import java.util.Scanner;
+
+        public class change {
+         public static void main(String args[]){
+                Scanner sc = new Scanner(System.in);
+                System.out.print("금액을 입력하세요(단위 원)");
+                int won = (빈칸1) ;
+                float dollar = won/1100;
+                System.out.print(won+"원은 $"+dollar+"입니다");
+                }
+
+        }
+</pre>
+</body>
+</html>
+
+//j_normal.html
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>java_normal</title>
+
+        <style>
+        .b{
+        color: blue;
+        }
+        </style>
+</head>
+<body>
+
+<pre>
+
+<div class="b"> Q. 사용자가 수를 입력하면 그 중 홀수만을 더하는 자바 프로그램이 다음과 같을 때,
+ 빈칸에 들어갈 식을 적으세요. </div>
+
+import java.util.Scanner;
+public class addTest {
+        public static void main(String[] args) {
+                Scanner sc=new Scanner(System.in);
+                int i=1, sum=0, n=0;
+                System.out.print("num을 입력하세요 :  ");
+                n=sc.nextInt();
+
+                while( 빈칸1 ) {
+                        if(i%2==1) {
+                                 sum += i ;
+                        }
+                }
+                System.out.println("홀수들의 합은  "+ sum+" 입니다.");
+        }
+}
+        [ 실행결과 :
+         num을 입력하세요 : 20
+        홀수들의 합은 100 입니다. ]
+</pre>
+</body>
+</html>
+
+//j_hard.html
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>java_hard</title>
+        <style>
+        .r{
+        color: red;
+        }
+        </style>
+</head>
+<body>
+        <pre>
+        <div class="r">Q. 인터페이스를 사용한 계산기 프로그램이 다음과 같을 때,
+                  빈칸에 들어갈 식을 적으세요.</div>
+
+//인터페이스
+public interface Calculator{
+        public String add(String x, String y);
+        public String substract(String x, String y);
+        public String multiply(String x, String y);
+        public String divide(String x, String y);
+        public void start();
+}
+
+//Cal.java
+import java.util.Scanner;
+public class Cal implements Calculator{
+        public String add(String x, String y){
+                int num1=Integer.parseInt(x);
+                int num2=Integer.parseInt(y);
+                return String.valueof(num1+num2);
+                }
+
+        public String substract(String x, String y){
+                ...
+
+                }
+
+        public String multiply(String x, String y){
+                ...
+                }
+                
+      public String divide(String x, String y){
+                ...
+                }
+        public void start(){
+                Scanner sc=new Scanner(System.in);
+                String result="";
+                while(1){
+                        System.out.println("-----------Calculator---------");
+                        System.out.print("연산자 선택(+,-,*,/) : ");
+                        char ch=sc.next().charAt(0);
+                        System.out.print("첫번째 숫자 입력: ");
+                        String x=sc.next();
+                        System.out.print("두번째 숫자 입력: ");
+                        String y=sc.next();
+                        switch(ch){
+                        case '+' :
+                                result=add(x,y);
+                                break;
+
+                        case '-' :
+                                ...
+                        case '*' :
+                                ...
+                        case '/' :
+                                ...
+                        }
+                System.out.println(x+""+ch+""+y+"="+result);
+                }
+        }
+        }
+
+//Main.java
+public class Main{
+        public static void main(String[] args){
+                new (빈칸1);
+}
+}
+
+        [ 실행결과:
+        -----------Calculator---------
+        연산자 선택(+,-,*,/) : +
+        첫번째 숫자 입력: 10
+        두번째 숫자 입력: 20
+        10 + 20 = 30  ]
+        
+ </pre>
+</body>
+</html>
