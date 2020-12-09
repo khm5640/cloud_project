@@ -87,12 +87,13 @@
 	
 	![alt text](home.PNG)
 	![alt text](about.PNG)
+	![alt text](how.PNG)
+	
 	
 	- PHONE
 	
 	
 	![alt text](ph1.jpg)
-	![alt text](ph2.jpg)
 
 1. 원하는 언어 / 난이도의 코딩 문제들을 확인 
 	- PC	
